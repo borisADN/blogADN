@@ -1,23 +1,25 @@
-html,body{
- margin: 0;
- padding: 0;
-font-family: Roboto-regular;
-background-color: blue;
-}
-p{
- color: aqua;
-}
-.Roboto-regular{
- font-family: Roboto-regular;
-}
-
 
 
 @font-face {
- font-family: Roboto-regular;
+ font-family: roboto-regular;
  src: url(/assets/fonts/Roboto/Roboto-Regular.ttf);
 }
 @font-face {
  font-family: Roboto-thin;
- src: url(/assets/fonts/Roboto/Roboto-Thin.ttf);
+ src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+
+.Roboto-regular{
+ font-family: roboto-regular;
+}
+.Roboto-thin{
+ font-family: Roboto-thin;
+}
+
+
+html,body{
+ margin: 0;
+ padding: 0;
+font-family: Roboto-thin;
+
 }
